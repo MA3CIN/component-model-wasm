@@ -5,6 +5,14 @@ Golang service
 C service.
 
 
+# Compile and run locally
+gcc service.c -o cservice
+./cservice
+
+go build -o goservice service.go
+./goservice
+
+
 Targetting wasip2
 
 tinygo build -target wasip2
