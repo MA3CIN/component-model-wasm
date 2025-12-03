@@ -19,7 +19,7 @@ func main() {
 		defer resp.Body.Close()
 
 		body, _ := io.ReadAll(resp.Body)
-		
+
 		fmt.Fprintf(w, "Go Service received from C Service: %s", string(body))
 	})
 
@@ -29,7 +29,7 @@ func main() {
 	}
 
 	fmt.Printf("[Go] Server starting on http://127.0.0.1:%s\n", port)
-	
+
 	if err := http.ListenAndServe(":"+port, nil); err != nil {
 		panic(err)
 	}

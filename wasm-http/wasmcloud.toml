@@ -1,0 +1,8 @@
+name = "http-hello-world"
+language = "tinygo"
+type = "component"
+version = "0.1.0"
+
+[component]
+wasm_target = "wasm32-wasi-preview2"
+wit_world = "hello"

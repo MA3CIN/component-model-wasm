@@ -1,8 +1,28 @@
 Wasm component model tests.
 
+# Next steps:
+Component creation with WIT (the proper way)
+
+Minimum HTTP example:
+https://wasmcloud.com/docs/developer/languages/go/components/
+
+
+https://wasmcloud.com/docs/examples/go/component/http-server/#-further-reading
+
+https://github.com/wasmCloud/go/blob/main/examples/component/http-server/main.go
+
+
+https://wasmcloud.com/docs/concepts/interfaces/
+
 Golang service
 
 C service.
+
+
+
+Bonus sources:
+https://www.youtube.com/watch?v=VGLnqkegX-g
+https://www.youtube.com/watch?v=jPDMYpVUA04
 
 
 # Compile and run locally
